@@ -6,9 +6,7 @@ const SecActive=(rep)=>{
     secciones.forEach(element => {
     element.style.display='none';
     });
-    
-    let seccion=rep.hash.slice(1)
-    console.log('click',seccion)
+    let seccion=rep.hash.slice(1);
     document.getElementById(seccion).style.display='block';
     
 }

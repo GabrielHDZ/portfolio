@@ -24,7 +24,6 @@ li{
     text-decoration: none;
 }
 a{
-    border-radius: 5px;
     text-decoration: none;
 }
 header{
@@ -40,21 +39,20 @@ nav{
     display: flex;
     justify-content: flex-end;
     width: 80%;
-    margin: 0 15px 0;
+    height: 100%;
+    align-items: center;
 }
 nav li{
     margin: 0 10px;
-    align-items: stretch;
 }
-
 section{
     margin: 0 20px 0;
+    padding: 0 40px 0;
     display: none;
     color: #000000;
 }
 section#presentacion{
-    border-radius: 20px;
-    padding: 5px;
+    margin: 40px 40px 0;
 }
 section#presentacion > div#tarjeta_pre{
     display: flex;
@@ -76,5 +74,16 @@ section#proyectos>h1{
 @media only screen and (max-width:540px) {
     nav span{
         display: none;
+    }
+    section#presentacion{
+        margin: 0px 20px 0;
+    }
+    section#proyectos{
+        margin: 10px;
+        padding: 0;
+    }
+    section#proyectos > article{
+        margin: 10px;
+        padding: 15px;
     }
 }
