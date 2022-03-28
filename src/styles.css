@@ -61,7 +61,7 @@ section#presentacion > div#tarjeta_pre{
     height: 150px;
 }
 section#proyectos>article{
-    padding: 60px;
+    padding: 10px 60px;
     margin: 40px 0;
     border-radius: 20px;
     background-color: rgba(49, 48, 48, 0.753);
