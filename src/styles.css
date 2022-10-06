@@ -84,7 +84,6 @@ section#proyectos>article {
     padding: 10px 60px;
     margin: 40px 0;
     border-radius: 20px;
-    background-color: #0F5959;
 }
 
 section#proyectos>h1 {
@@ -100,6 +99,10 @@ section#proyectos>h1 {
         color: white;
         background: #042326;
     }
+
+    section#proyectos>article {
+        background-color: #0F5959;
+    }
 }
 
 @media (prefers-color-scheme: light) {
@@ -109,7 +112,11 @@ section#proyectos>h1 {
 
     body {
         color: black;
-        background: whitesmoke;
+        background: #93e0d2;
+    }
+
+    section#proyectos>article {
+        background-color: #52b1b1;
     }
 }
 
