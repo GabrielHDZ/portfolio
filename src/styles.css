@@ -1,3 +1,7 @@
+@import url(./cssModules/navbar.css);
+@import url(./cssModules/themes.css);
+@import url(./cssModules/body.css);
+
 html,
 body {
     margin: 0 0 0;
@@ -18,107 +22,7 @@ body {
     box-sizing: border-box;
 }
 
-div.menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 70px;
-    margin: 1px 0 20px;
-    background-color: #0A3A40;
 
-}
-
-div.menu span {
-    color: rgb(255, 255, 255);
-}
-
-li {
-    list-style: none;
-    text-decoration: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-header {
-    width: 20%;
-    margin: 5px;
-}
-
-header h1 {
-    font-size: 30px;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 80%;
-    height: 100%;
-    align-items: center;
-}
-
-nav li {
-    margin: 0 10px;
-}
-
-section {
-    margin: 0 20px 0;
-    padding: 0 40px 0;
-    display: block;
-}
-
-section#presentacion {
-    margin: 40px 40px 0;
-}
-
-section#presentacion>div#tarjeta_pre {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 150px;
-}
-
-section#proyectos>article {
-    padding: 10px 60px;
-    margin: 40px 0;
-    border-radius: 20px;
-}
-
-section#proyectos>h1 {
-    font-size: 100px;
-}
-
-@media (prefers-color-scheme: dark) {
-    html {
-        color-scheme: dark;
-    }
-
-    body {
-        color: white;
-        background: #042326;
-    }
-
-    section#proyectos>article {
-        background-color: #0F5959;
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    html {
-        color-scheme: whitesmoke;
-    }
-
-    body {
-        color: black;
-        background: #93e0d2;
-    }
-
-    section#proyectos>article {
-        background-color: #52b1b1;
-    }
-}
 
 @media only screen and (max-width:540px) {
     nav span {
@@ -138,77 +42,4 @@ section#proyectos>h1 {
         margin: 10px;
         padding: 15px;
     }
-}
-
-
-div#tabnav {
-    position: relative;
-    padding: 0 8px;
-    border-radius: 28px;
-    background-color: #151515;
-    z-index: 20;
-}
-
-div#tabnavwrapper {
-    position: relative;
-    overflow: hidden;
-    border-radius: 28px;
-    padding: 1px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-div#tab {
-    padding: 12px 12px;
-    font-size: 14 / 16rem;
-    color: hsl(0 0% 43.5%);
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    transition: color 250ms;
-
-
-}
-
-div#tab:hover {
-    color: rgba(255, 255, 255, 0.75);
-}
-
-#tabhightlight {
-    background: rgba(255, 255, 255, 0.07);
-    position: absolute;
-    top: 4px;
-    left: 0;
-    border-radius: 28px;
-    height: 32px;
-    transition: 0.15s ease;
-    transition-property: 30px transform, opacity;
-
-
-}
-
-#tabhightlight:before {
-    content: "";
-    filter: blur(20px);
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 130%);
-    width: 30* 1.1 px;
-    height: 20px;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.4);
-    z-index: 10;
-}
-
-#flashlight {
-    position: absolute;
-    left: 0;
-    bottom: -25px;
-    border-radius: 28px;
-    transition: 0.15s ease;
-    transition-property: width, transform, opacity;
-    filter: blur(15px);
-    transform: translate(-50%, 0%);
-    height: 50px;
-    background-color: rgba(255, 255, 255, 0.6);
-    z-index: 10;
 }

@@ -1,0 +1,29 @@
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: dark;
+    }
+
+    body {
+        color: white;
+        background: #042326;
+    }
+
+    section#proyectos>article {
+        background-color: #0F5959;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    html {
+        color-scheme: whitesmoke;
+    }
+
+    body {
+        color: black;
+        background: #93e0d2;
+    }
+
+    section#proyectos>article {
+        background-color: #52b1b1;
+    }
+}
