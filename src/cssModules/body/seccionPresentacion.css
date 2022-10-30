@@ -1,0 +1,41 @@
+section#presentacion {
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px 20px #0ff;
+}
+
+section#presentacion>article {
+    height: 100%;
+    border-radius: 15px;
+    background: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+section#presentacion>article>article:first-child {
+    width: 40%;
+}
+
+section#presentacion>article>article:last-child {
+    width: 60%;
+}
+
+section#presentacion>article>article>ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:540px) {
+    section#presentacion>article {
+        flex-direction: column;
+    }
+
+    section#presentacion>article>article:first-child {
+        width: 100%;
+    }
+
+    section#presentacion>article>article:last-child {
+        width: 100%;
+    }
+}

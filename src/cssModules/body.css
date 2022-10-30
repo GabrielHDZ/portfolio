@@ -1,1 +1,6 @@
-section {}
+@import url(./body/seccionPresentacion.css);
+
+section {
+    margin: 25px;
+    height: 400px;
+}
