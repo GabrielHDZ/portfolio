@@ -5,7 +5,8 @@
 
     body {
         color: white;
-        background: #042326;
+        background-color: #000000;
+        /* background: #042326;*/
     }
 
     section#proyectos>article {
