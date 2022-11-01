@@ -5,14 +5,6 @@ div.menu {
     width: 100%;
     height: 70px;
     margin: 1px 0 20px;
-    background-color: #000000;
-    ;
-    /* background-color: #0A3A40; */
-
-}
-
-div.menu span {
-    color: rgb(255, 255, 255);
 }
 
 li {
@@ -43,4 +35,24 @@ nav {
 
 nav li {
     margin: 0 10px;
+}
+
+@media (prefers-color-scheme: light) {
+    div.menu {
+        background-color: #ece5e5a9;
+    }
+
+    div.menu span {
+        color: rgb(5, 5, 5);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    div.menu {
+        background-color: #000000;
+    }
+
+    div.menu span {
+        color: rgb(255, 255, 255);
+    }
 }

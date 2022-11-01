@@ -10,3 +10,19 @@ const SecActive = (rep) => {
     let seccion = rep.hash.slice(1);
     document.getElementById(seccion).style.display = 'block'; */
 }
+
+const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
+
+if (darkThemeMq.matches) {
+    document.getElementById('path').setAttribute("fill", "white");
+    document.getElementById('path1').setAttribute("fill", "white");
+    document.getElementById('path2').setAttribute("fill", "white");
+    document.getElementById('path3').setAttribute("fill", "white");
+} else {
+    // Theme set to light.
+    document.getElementById('path').setAttribute("fill", "black");
+    document.getElementById('path1').setAttribute("fill", "black");
+    document.getElementById('path2').setAttribute("fill", "black");
+    document.getElementById('path3').setAttribute("fill", "black");
+}
+;

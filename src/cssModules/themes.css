@@ -6,11 +6,6 @@
     body {
         color: white;
         background-color: #000000c0;
-        /* background: #042326;*/
-    }
-
-    section#proyectos>article {
-        background-color: #0F5959;
     }
 }
 
@@ -21,10 +16,6 @@
 
     body {
         color: black;
-        background: #93e0d2;
-    }
-
-    section#proyectos>article {
-        background-color: #52b1b1;
+        background: #a0a8a7;
     }
 }
