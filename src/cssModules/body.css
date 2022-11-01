@@ -1,6 +1,6 @@
-@import url(./body/seccionPresentacion.css);
+@import url(./body/sectionPresentacion.css);
+@import url(./body/sectionAboutMe.css);
 
 section {
-    margin: 25px;
-    height: 400px;
+    margin: 70px 55px;
 }
