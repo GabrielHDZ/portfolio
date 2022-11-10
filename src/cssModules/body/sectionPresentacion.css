@@ -1,7 +1,16 @@
 section#presentacion {
-    height: 450px;
+    background-image: url('../../resource/Fg9_TUBWIAMyvZy.png');
+    margin: 0px;
+    padding: 0px;
+    min-height: 500px;
+    max-height: 600px;
+
+}
+
+section#presentacion>article>article>img {
+    max-height: 450px;
     text-align: center;
-    border: 5px solid #ff00e6;
+    border: 5px solid rgb(218, 43, 165);
     border-radius: 20px;
     animation: border-flicker 2s linear infinite;
 }
