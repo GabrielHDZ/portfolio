@@ -4,3 +4,15 @@
 section {
     margin: 70px 55px;
 }
+
+footer {
+    background-color: #000000;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 24px;
+
+}
