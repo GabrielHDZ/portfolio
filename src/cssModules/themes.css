@@ -9,6 +9,22 @@
         background: rgb(0, 0, 0);
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.747) 24%, rgba(54, 13, 35, 1) 75%);
     }
+
+    ::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.747)24%, rgba(54, 13, 35, 1)75%);
+    }
+
+    ::-webkit-scrollbar-button {
+        background-color: rgb(0, 0, 0);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(0, 0, 0)
+    }
 }
 
 @media (prefers-color-scheme: light) {

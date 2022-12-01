@@ -1,5 +1,16 @@
 //document.querySelectorAll("section").style.display = 'block';
 
+
+
+
+
+window.onscroll = () => {
+    document.getElementById("scroll-number").textContent = (document.documentElement.scrollTop);
+
+};
+
+
+
 const SecActive = (rep) => {
     /* //obtenemos un NodeList del DOM
     const NodeList = document.querySelectorAll('.seccion');
