@@ -1,4 +1,3 @@
-//document.querySelectorAll("section").style.display = 'block';
 
 window.onscroll = () => {
     document.getElementById("scroll-number").textContent = (document.documentElement.scrollTop);
@@ -42,6 +41,7 @@ const normalizePozition = (mouseX, mouseY) => {
 
 
 }
+
 const contextMenu = document.getElementById('context-menu');
 const scope = document.querySelector("body");
 scope.addEventListener("contextmenu", (e) => {
@@ -49,8 +49,6 @@ scope.addEventListener("contextmenu", (e) => {
     const { clientX: mouseX, clientY: mouseY } = e;
     contextMenu.style.top = `${mouseY}px`;
     contextMenu.style.left = `${mouseX}px`;
-
-
     /* const { offsetX: mouseX, offsetY: mouseY } = e;
     const { normalizedX, normalizedY } = normalizePozition(mouseX, mouseY);
     contextMenu.style.top = `${normalizedY}px`;
@@ -72,19 +70,6 @@ contextMenu.addEventListener('click', (e) => {
     contextMenu.classList.remove('visible');
 })
 
-
-
-const SecActive = (rep) => {
-    /* //obtenemos un NodeList del DOM
-    const NodeList = document.querySelectorAll('.seccion');
-    // Change the text of multiple elements with a loop
-    NodeList.forEach(e => {
-        e.style.display = 'none';
-    });
-    let seccion = rep.hash.slice(1);
-    document.getElementById(seccion).style.display = 'block'; */
-}
-
 const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
 
 if (darkThemeMq.matches) {
@@ -98,5 +83,4 @@ if (darkThemeMq.matches) {
     document.getElementById('path1').setAttribute("fill", "black");
     document.getElementById('path2').setAttribute("fill", "black");
     document.getElementById('path3').setAttribute("fill", "black");
-}
-;
+};

@@ -1,6 +1,7 @@
 @import url(./cssModules/navbar.css);
 @import url(./cssModules/themes.css);
 @import url(./cssModules/body.css);
+@import url(./cssModules/contextmenu.css);
 
 html,
 body {
@@ -8,10 +9,6 @@ body {
     font-family: -apple-system,
         BlinkMacSystemFont,
         Segoe UI,
-        Roboto,
-        Oxygen,
-        Ubuntu,
-        Cantarell,
         Fira Sans,
         Droid Sans,
         Helvetica Neue,
@@ -21,40 +18,6 @@ body {
 * {
     box-sizing: border-box;
 }
-
-#context-menu {
-    position: fixed;
-    z-index: 10000;
-    width: 150px;
-    background-color: rgba(54, 13, 35, 1);
-    border-radius: 15px;
-    margin: 25px;
-    transform: scale(0);
-    transform-origin: top left;
-}
-
-#context-menu.visible {
-    transform: scale(1);
-    transition: transform 200ms ease-in-out;
-}
-
-#context-menu .item {
-    margin: 20px;
-    padding: 8px, 10px;
-
-    color: antiquewhite;
-    cursor: pointer;
-    border-radius: inherit;
-}
-
-#context-menu .item:hover {
-    background-color: #343434;
-}
-
-
-
-
-
 
 @media only screen and (max-width:540px) {
     nav span {
