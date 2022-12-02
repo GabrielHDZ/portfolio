@@ -1,9 +1,5 @@
 //document.querySelectorAll("section").style.display = 'block';
 
-
-
-
-
 window.onscroll = () => {
     document.getElementById("scroll-number").textContent = (document.documentElement.scrollTop);
 
