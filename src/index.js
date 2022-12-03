@@ -8,7 +8,7 @@ window.addEventListener('mouseup', (e) => {
     console.log(e.button);
 })
 
-const normalizePozition = (mouseX, mouseY) => {
+/* const normalizePozition = (mouseX, mouseY) => {
     // ? compute what is the mouse position relative to the container element (scope)
     const {
         left: scopeOffsetX,
@@ -38,9 +38,7 @@ const normalizePozition = (mouseX, mouseY) => {
             scopeOffsetY + scope.clientHeight - contextMenu.clientHeight;
     }
     return { normalizedX, normalizedY };
-
-
-}
+} */
 
 const contextMenu = document.getElementById('context-menu');
 const scope = document.querySelector("body");
