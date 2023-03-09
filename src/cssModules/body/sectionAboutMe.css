@@ -1,9 +1,17 @@
 section#AboutMe {
     text-align: center;
-    /* 
-    border: 5px solid rgba(54, 13, 35, 1);
-    border-radius: 20px; */
     margin-top: 80px;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
+
+}
+
+section#AboutMe>article {
+
+    border-radius: 15px;
+    background-color: rgb(48, 15, 32);
+    padding: 10px;
 }
