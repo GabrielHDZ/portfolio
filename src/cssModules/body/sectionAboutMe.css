@@ -10,6 +10,7 @@ section#AboutMe {
 section#AboutMe>article#special {
     width: 80vw;
     flex-grow: 3;
+
 }
 
 section#AboutMe>article {
