@@ -10,7 +10,6 @@ section#AboutMe {
 section#AboutMe>article#special {
     width: 80vw;
     flex-grow: 3;
-
 }
 
 section#AboutMe>article {
@@ -20,7 +19,6 @@ section#AboutMe>article {
     margin: 20px;
     padding: 10px;
     box-shadow: 0 0 30px 0.5px #9756cc;
-
     /*     animation: flicker 1s ease-in-out infinite;
  */
     animation: flicker 2s linear infinite;
