@@ -30,9 +30,7 @@ section.menu nav li {
     padding: 5px;
 }
 
-header span#min {
-    display: block;
-}
+
 
 section.menu a {
     color: #fff;
@@ -80,9 +78,6 @@ section.menu a:hover:after {
         margin: 0 5px;
     }
 
-    header span#min {
-        display: none;
-    }
 
     nav span {
         display: none;
