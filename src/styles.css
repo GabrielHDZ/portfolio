@@ -14,13 +14,31 @@ body {
     box-sizing: border-box;
 }
 
+@media only screen and (min-width:541px) and (max-width:900px) {
+
+
+    section.menu a {
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: 0em;
+        display: inline-block;
+        position: relative;
+    }
+}
+
 @media only screen and (max-width:540px) {
-    nav span {
-        display: none;
+
+
+    section.menu a {
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: 0em;
+        display: inline-block;
+        position: relative;
     }
 
     section#presentacion {
-        margin: 0px 20px 0;
+        margin: 0px 20px 0px;
     }
 
     section#proyectos {
