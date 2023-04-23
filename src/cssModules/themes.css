@@ -4,9 +4,7 @@
     }
 
     body {
-        color: white;
-
-        background: rgb(0, 0, 0);
+        color: rgb(209, 197, 197);
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.747) 24%, rgba(54, 13, 35, 1) 75%);
     }
 
