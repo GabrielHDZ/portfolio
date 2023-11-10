@@ -11,9 +11,9 @@ scheme, the `fill` attribute is set to black. */
 }); */
 
 //contador aun falta desarrollo
-window.onscroll = () => {
+/* window.onscroll = () => {
     document.getElementById("scroll-number").textContent = (document.documentElement.scrollTop);
-};
+}; */
 
 window.addEventListener('mouseup', (e) => {
     console.log(e.button);
