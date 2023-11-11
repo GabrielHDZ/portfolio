@@ -1,5 +1,6 @@
-@import url(./body/sectionPresentacion.css);
-@import url(./body/sectionAboutMe.css);
+@import url(./body/Presentacion.css);
+@import url(./body/AboutMe.css);
+@import url(./body/Projects.css);
 
 section {
     margin: 0;

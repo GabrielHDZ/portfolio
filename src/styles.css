@@ -14,40 +14,52 @@ body {
     box-sizing: border-box;
 }
 
-@media only screen and (min-width:541px) and (max-width:900px) {
 
-
-    section.menu a {
-        color: #fff;
-        text-decoration: none;
-        letter-spacing: 0em;
-        display: inline-block;
-        position: relative;
-    }
+.carousel {
+    margin: 0 20px;
+    position: relative;
+    width: 90%;
+    overflow: hidden;
 }
 
-@media only screen and (max-width:540px) {
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
 
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
 
-    section.menu a {
-        color: #fff;
-        text-decoration: none;
-        letter-spacing: 0em;
-        display: inline-block;
-        position: relative;
-    }
+.carousel-nav {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 10px;
+}
 
-    section#presentacion {
-        margin: 0px 20px 0px;
-    }
+input[type="radio"] {
+    display: none;
+}
 
-    section#proyectos {
-        margin: 10px;
-        padding: 0;
-    }
+label {
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 5px;
+    background-color: #2196F3;
+    border-radius: 50%;
+}
 
-    section#proyectos>article {
-        margin: 10px;
-        padding: 15px;
-    }
+#slide1:checked~.slides {
+    transform: translateX(0);
+}
+
+#slide2:checked~.slides {
+    transform: translateX(-100%);
+}
+
+#slide3:checked~.slides {
+    transform: translateX(-200%);
 }
