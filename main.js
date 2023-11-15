@@ -8,10 +8,18 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 //geometria,textura,animaciones
-const geometry = new THREE.PlaneGeometry(2, 2);
+const geometry = new THREE.BoxGeometry(5, 5);
 const material = new THREE.MeshBasicMaterial({ color: 0x148f77 });
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
+
+//grid
+let grid = new THREE.GridHelper(100, 10);
+scene.add(grid);
+camera.position.z = 15;
+camera.position.y = -15;
+camera.rotation.y = -10;
+camera.rotation.x = 10;
 
 camera.position.z = 5;
 
