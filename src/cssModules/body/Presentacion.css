@@ -2,8 +2,6 @@ section#presentacion {
     margin: 0px;
     padding: 0px;
     height: 550px;
-    /*     background-image: url("../../images/Unwtitled.jpg");
- */
     background-size: 550px;
 }
 
@@ -18,17 +16,10 @@ section#presentacion>article {
 
 section#presentacion>article>article:first-child {
     width: 40%;
-    /*     background-color: rgba(0, 255, 255, 0.281);
- */
 }
 
 section#presentacion>article>article:last-child {
     width: 60%;
-    /*     background-color: rgba(0, 0, 255, 0.253);
- */
 }
-
-
-
 
 @media only screen and (max-width:540px) {}

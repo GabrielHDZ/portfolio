@@ -14,32 +14,8 @@ section#AboutMe>article#special {
 }
 
 section#AboutMe>article {
-    /*     border: 5px solid #800080;
- */
     border-radius: 15px;
     background-color: rgb(48, 15, 32);
     margin: 20px;
     padding: 10px;
-    /*     box-shadow: 0 0 30px 0.5px #9756cc;
-    /*     animation: flicker 1s ease-in-out infinite;
- */
-    /*  animation: flicker 2s linear infinite;
-     */
 }
-
-/* /* Define la animación "flicker" */
-/* @keyframes flicker {
-    0% {
-        box-shadow: 0 0 10px #800080;
-    }
-
-    50% {
-        box-shadow: 0 0 20px #800080;
-    }
-
-    100% {
-        box-shadow: 0 0 10px #800080;
-    }
-}
-
-*/
