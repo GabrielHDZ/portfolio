@@ -3,7 +3,6 @@ section#AboutMe {
     margin: 0;
     text-align: center;
     margin-top: 80px;
-    padding: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
