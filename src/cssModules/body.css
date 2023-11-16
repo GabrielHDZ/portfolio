@@ -1,9 +1,11 @@
 @import url(./body/Presentacion.css);
 @import url(./body/AboutMe.css);
 @import url(./body/Projects.css);
+@import url(./body/Contacts.css);
 
 section {
     margin: 20px;
+    width: 80%;
 }
 
 footer {
