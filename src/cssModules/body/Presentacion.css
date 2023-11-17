@@ -1,7 +1,7 @@
 section#presentacion {
     margin: 0px;
     padding: 0px;
-    height: 550px;
+    height: 100%;
     background-size: 550px;
 }
 
@@ -15,12 +15,12 @@ section#presentacion>article {
     flex-direction: row;
 }
 
-section#presentacion>article>article:first-child {
-    width: 40%;
+article#image {
+    width: 60%;
 }
 
-section#presentacion>article>article:last-child {
-    width: 60%;
+article#name {
+    width: 40%;
 }
 
 @media only screen and (max-width:540px) {}
