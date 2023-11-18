@@ -3,6 +3,10 @@
 @import url(./cssModules/body.css);
 @import url(./cssModules/contextmenu.css);
 
+:root {
+    --back-dark-color: #212121;
+}
+
 html,
 body {
     margin: 0;

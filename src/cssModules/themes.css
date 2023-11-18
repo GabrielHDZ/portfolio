@@ -1,24 +1,26 @@
 @media (prefers-color-scheme: dark) {
-    html {
-        color-scheme: dark;
-        color: rgb(209, 197, 197);
+
+    html,
+    body {
+        color-scheme: #010101;
+        color: #fcffec;
+    }
+
+    body {
+        background: #010101;
     }
 
     title,
     span {
-        color: antiquewhite;
+        color: #d1aa74;
     }
 
     path {
         fill: white;
     }
 
-    body {
 
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.747) 24%, rgba(54, 13, 35, 1) 75%);
-    }
-
-    ::-webkit-scrollbar {
+    */ ::-webkit-scrollbar {
         width: 15px;
     }
 
@@ -37,8 +39,8 @@
 
 @media (prefers-color-scheme: light) {
     html {
-        color-scheme: whitesmoke;
-        color: black;
+        color-scheme: #d9c9aa;
+        color: #5f0e2b;
     }
 
     title,
@@ -53,6 +55,8 @@
     body {
 
         background: rgb(0, 0, 0);
-        background: linear-gradient(180deg, rgb(224, 221, 221) 24%, rgba(155, 191, 245, 0.884) 75%);
+        background: #f8f9fd;
+        /*         background: linear-gradient(180deg, rgb(224, 221, 221) 24%, rgba(155, 191, 245, 0.884) 75%);
+ */
     }
 }
