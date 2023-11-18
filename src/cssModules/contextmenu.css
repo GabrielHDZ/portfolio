@@ -2,7 +2,7 @@
     position: fixed;
     z-index: 10000;
     width: 150px;
-    background: var(--color-tres);
+    background: var(--color-dos);
     border-radius: 15px;
     margin: 25px;
     transform: scale(0);
@@ -26,5 +26,5 @@
 }
 
 #context-menu .item:hover {
-    background-color: var(--color-dos);
+    background-color: var(--color-tres);
 }
