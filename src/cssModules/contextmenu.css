@@ -2,7 +2,7 @@
     position: fixed;
     z-index: 10000;
     width: 150px;
-    background-color: rgba(54, 13, 35, 1);
+    background: var(--color-tres);
     border-radius: 15px;
     margin: 25px;
     transform: scale(0);
@@ -17,11 +17,14 @@
 #context-menu .item {
     margin: 20px;
     padding: 8px, 10px;
-    color: antiquewhite;
     cursor: pointer;
     border-radius: inherit;
 }
 
+#context-menu .item span {
+    color: var(--color-uno);
+}
+
 #context-menu .item:hover {
-    background-color: #343434;
+    background-color: var(--color-dos);
 }
