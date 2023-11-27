@@ -39,6 +39,7 @@ document.querySelector("body").addEventListener("contextmenu", (e) => {
     contextMenu.classList.remove('visible');
 
     setTimeout(() => {
+        
         contextMenu.classList.add('visible');
     });
 });
