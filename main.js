@@ -13,7 +13,6 @@ const material = new THREE.MeshBasicMaterial({ color: 0x148f77 });
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
-
 //grid
 let grid = new THREE.GridHelper(100, 10);
 scene.add(grid);
