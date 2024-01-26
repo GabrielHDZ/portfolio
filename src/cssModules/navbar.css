@@ -1,17 +1,17 @@
-section.menu {
+section#menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     margin: 0px 0 0px;
 }
-section.menu header {
+section#menu header {
     width: 30%;
     height: 90%;
     margin: 0px;
     margin-left: 20px;
 }
-section.menu nav {
+section#menu nav {
     width: 65%;
     height: 90%;
     margin: 0;
@@ -20,13 +20,13 @@ section.menu nav {
     justify-content: end;
     align-items: center;
 }
-section.menu nav li {
+section#menu nav li {
     margin: 0 10px;
     list-style: none;
     text-decoration: none;
     padding: 5px;
 }
-section.menu a {
+section#menu a {
     color: #fff;
     text-decoration: none;
     letter-spacing: 0.15em;
@@ -34,7 +34,7 @@ section.menu a {
     padding: 0;
     position: relative;
 }
-section.menu a:after {
+section#menu a:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -46,7 +46,7 @@ section.menu a:after {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
-section.menu a:hover:after {
+section#menu a:hover:after {
     width: 100%;
     left: 0;
 }
@@ -56,13 +56,13 @@ section.menu a:hover:after {
     }
 }
 @media only screen and (max-width:540px) {
-    section.menu header {
+    section#menu header {
         width: 50%;
     }
-    section.menu nav {
+    section#menu nav {
         width: 45%;
     }
-    section.menu nav li {
+    section#menu nav li {
         margin: 0 5px;
     }
     nav span {
