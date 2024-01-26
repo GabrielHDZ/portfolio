@@ -1,5 +1,4 @@
 @import url(./body/Projects.css);
-@import url(./body/Contacts.css);
 
 section:not(#menu){
     margin: 0;
