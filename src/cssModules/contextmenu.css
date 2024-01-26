@@ -8,23 +8,19 @@
     transform: scale(0);
     transform-origin: top left;
 }
-
 #context-menu.visible {
     transform: scale(1);
     transition: transform 200ms ease-in-out;
 }
-
 #context-menu .item {
     margin: 20px;
     padding: 8px, 10px;
     cursor: pointer;
     border-radius: inherit;
 }
-
 #context-menu .item span {
     color: var(--color-uno);
 }
-
 #context-menu .item:hover {
     background-color: var(--color-tres);
 }
