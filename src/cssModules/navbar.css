@@ -30,8 +30,6 @@ section.menu nav li {
     padding: 5px;
 }
 
-
-
 section.menu a {
     color: #fff;
     text-decoration: none;
@@ -69,20 +67,15 @@ section.menu a:hover:after {
     section.menu header {
         width: 50%;
     }
-
     section.menu nav {
         width: 45%;
     }
-
     section.menu nav li {
         margin: 0 5px;
     }
-
-
     nav span {
         display: none;
     }
-
     nav svg {
         display: block;
     }

@@ -1,43 +1,33 @@
 @media (prefers-color-scheme: dark) {
-
     html,
     body {
         color-scheme: var(--color-uno);
         color: var(--color-dos);
     }
-
     body {
         background: var(--color-uno);
     }
-
     title,
     span {
         color: var(--color-tres);
     }
-
     path {
         fill: var(--color-tres);
     }
-
 }
-
 @media (prefers-color-scheme: light) {
-
     html,
     body {
         color-scheme: var(--color-tres);
         color: var(--color-uno);
     }
-
     body {
         background: var(--color-tres);
     }
-
     title,
     span {
         color: var(--color-uno);
     }
-
     path {
         fill: var(--color-uno);
     }
