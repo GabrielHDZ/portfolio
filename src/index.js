@@ -1,20 +1,3 @@
-/* This code is adding an event listener to the `matchMedia` method of the `window` object. The
-`matchMedia` method is used to check if the user's device has a preference for a light or dark color
-scheme. The event listener listens for changes in the user's color scheme preference and updates the
-`fill` attribute of all `path` elements on the page accordingly. If the user's preference is for a
-dark color scheme, the `fill` attribute is set to white, and if the preference is for a light color
-scheme, the `fill` attribute is set to black. */
-/* window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', (event) => {
-    let paths = document.querySelectorAll("path");
-    event.matches ? paths.forEach((nodo) => { nodo.setAttribute("fill", "white"); })
-        : paths.forEach((nodo) => { nodo.setAttribute("fill", "black"); })
-}); */
-
-//contador aun falta desarrollo
-/* window.onscroll = () => {
-    document.getElementById("scroll-number").textContent = (document.documentElement.scrollTop);
-}; */
-
 window.addEventListener('mouseup', (e) => {
     console.log(e.button);
 })
