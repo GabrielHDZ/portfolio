@@ -2,18 +2,18 @@ section:not(#menu){
     margin: 0;
 }
 /**
- * @author <NAME>
+ * @author GabrielHDZ
  * @version 1.0
  presentation
  */
-section#presentacion {
+section#home {
     margin: 0px;
     padding: 0px;
     width: 100%;
     height: 550px;
     background-size: 550px;
 }
-section#presentacion>article {
+section#home>article {
     height: 100%;
     width: 100%;
     border-radius: 15px;
@@ -21,18 +21,18 @@ section#presentacion>article {
     display: flex;
     flex-direction: row;
 }
-section#presentacion>article>article#image {
+section#home>article>article#image {
     width: 60%;
 }
-section#presentacion>article>article#name {
+section#home>article>article#name {
     width: 40%;
 }
 /**
- * @author <NAME>
+ * @author GabrielHDZ
  * @version 1.0
  About Me
  */
-section#AboutMe {
+section#about_me {
     width: 100%;
     margin: 0;
     text-align: center;
@@ -41,18 +41,18 @@ section#AboutMe {
     flex-direction: row;
     flex-wrap: wrap;
 }
-section#AboutMe>article {
+section#about_me>article {
     border-radius: 15px;
     margin: 20px;
     padding: 2% 6%;
 }
-section#AboutMe>article#special {
+section#about_me>article#special {
     width: 80vw;
     flex-grow: 3;
 }
 
 /**
- * @author <NAME>
+ * @author GabrielHDZ
  * @version 1.0
  Projects
  */
@@ -92,7 +92,7 @@ div.carousel-nav label {
     transform: translateX(-100%);
 }
 /**
- * @author <NAME>
+ * @author GabrielHDZ
  * @version 1.0
  Contact
  */
