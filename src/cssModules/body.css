@@ -1,5 +1,11 @@
 section:not(#menu){
-    margin: 0;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 /**
  * @author GabrielHDZ
@@ -32,23 +38,14 @@ section#home>article>article#name {
  * @version 1.0
  About Me
  */
-section#about_me {
-    width: 100%;
-    margin: 0px;
-    text-align: center;
-    margin-top: 80px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-section#about_me>article {
-    background-color: var(--primary-200);
-    border-radius: 15px;
-    margin: 5%;
-    padding: 2% 6%;
-    width: 80vw;
-    flex-grow: 3;
-} 
+
+
+/**
+ * @author GabrielHDZ
+ * @version 1.0
+ skills
+ */
+
 
 /**
  * @author GabrielHDZ

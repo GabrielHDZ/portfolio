@@ -13,6 +13,14 @@
     path {
         fill: var(--bg-200);
     }
+    section>article {
+        background-color: var(--primary-300);
+        border-radius: 15px;
+        margin: 5%;
+        padding: 2% 6%;
+        width: 90%;
+        color: var(--text-100);
+    } 
 }
 @media (prefers-color-scheme: light) {
     html,
@@ -27,4 +35,13 @@
     path {
         fill: var(--text-200);
     }
+    section>article {
+        background-color: var(--primary-200);
+        border-radius: 15px;
+        margin: 5%;
+        padding: 2% 6%;
+        width: 90%;
+        color: var(--text-100);
+
+    } 
 }
