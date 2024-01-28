@@ -1,34 +1,30 @@
 @media (prefers-color-scheme: dark) {
     html,
     body {
-        color-scheme: var(--color-uno);
-        color: var(--color-dos);
+        color: var(--bg-300);
     }
     body {
-        background: var(--color-uno);
+        background: var(--text-100);
     }
     title,
     span {
-        color: var(--color-tres);
+        color: var(--bg-200);
     }
     path {
-        fill: var(--color-tres);
+        fill: var(--bg-200);
     }
 }
 @media (prefers-color-scheme: light) {
     html,
     body {
-        color-scheme: var(--color-tres);
-        color: var(--color-uno);
-    }
-    body {
-        background: var(--color-tres);
+        color: var(--text-100);
+        background: var(--primary-300);
     }
     title,
     span {
-        color: var(--color-uno);
+        color: var(--text-100);
     }
     path {
-        fill: var(--color-uno);
+        fill: var(--text-200);
     }
 }

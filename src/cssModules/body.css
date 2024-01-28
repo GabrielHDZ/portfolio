@@ -34,7 +34,7 @@ section#home>article>article#name {
  */
 section#about_me {
     width: 100%;
-    margin: 0;
+    margin: 0px;
     text-align: center;
     margin-top: 80px;
     display: flex;
@@ -42,14 +42,13 @@ section#about_me {
     flex-wrap: wrap;
 }
 section#about_me>article {
+    background-color: var(--primary-200);
     border-radius: 15px;
-    margin: 20px;
+    margin: 5%;
     padding: 2% 6%;
-}
-section#about_me>article#special {
     width: 80vw;
     flex-grow: 3;
-}
+} 
 
 /**
  * @author GabrielHDZ

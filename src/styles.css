@@ -4,9 +4,19 @@
 @import url(./cssModules/contextmenu.css);
 
 :root {
-    --color-uno: #010101;
-    --color-dos: #fcffec;
-    --color-tres: #d1aa74;
+    --primary-100:#2E7166;
+    --primary-200:#5ea094;
+    --primary-300:#c0fff7;
+
+    --accent-100:#B3D6C6;
+    --accent-200:#567668;
+
+    --bg-100:#DFF0E6;
+    --bg-200:#d5e6dc;
+    --bg-300:#adbdb4;
+    
+    --text-100:#000000;
+    --text-200:#2c2c2c;
 }
 
 html,
