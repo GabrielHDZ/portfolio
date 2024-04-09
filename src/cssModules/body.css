@@ -20,19 +20,20 @@ section#home {
     background-size: 550px;
 }
 section#home>article {
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-}
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+
+    }
 section#home>article>article#image {
-    width: 60%;
-}
+                width: 60%;
+            }
 section#home>article>article#name {
-    width: 40%;
-}
+                width: 40%;
+            }
 /**
  * @author GabrielHDZ
  * @version 1.0

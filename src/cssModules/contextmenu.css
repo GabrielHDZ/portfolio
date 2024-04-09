@@ -7,20 +7,20 @@ aside#context-menu {
     margin: 25px;
     transform: scale(0);
     transform-origin: top left;
+    &.visible {
+        transform: scale(1);
+        transition: transform 200ms ease-in-out;
+    }
     & .item {
         margin: 20px;
         padding: 8px, 10px;
         cursor: pointer;
         border-radius: inherit;
         &:hover {
-            background-color: var(--color-tres);
+            background-color: var(--primary-300);
         }
         & span {
             color: var(--bg-300);
         }
     }
-}
-aside#context-menu.visible {
-    transform: scale(1);
-    transition: transform 200ms ease-in-out;
 }
