@@ -4,52 +4,54 @@ section#menu {
     justify-content: space-between;
     width: 100%;
     margin: 0px 0 0px;
+    & header {
+        width: 30%;
+        height: 90%;
+        margin: 0px;
+        margin-left: 20px;
+    }
+    & nav {
+        width: 65%;
+        height: 90%;
+        margin: 0;
+        margin-right: 20px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        & li {
+            margin: 0 10px;
+            list-style: none;
+            text-decoration: none;
+            padding: 5px;
+        }
+    }
+    & a {
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: 0.15em;
+        display: inline-block;
+        padding: 0;
+        position: relative;
+        &:after {
+            background: none repeat scroll 0 0 transparent;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 2px;
+            left: 50%;
+            position: absolute;
+            background: #fff;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+        &:hover:after {
+            width: 100%;
+            left: 0;
+        }
+    }
 }
-section#menu header {
-    width: 30%;
-    height: 90%;
-    margin: 0px;
-    margin-left: 20px;
-}
-section#menu nav {
-    width: 65%;
-    height: 90%;
-    margin: 0;
-    margin-right: 20px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-section#menu nav li {
-    margin: 0 10px;
-    list-style: none;
-    text-decoration: none;
-    padding: 5px;
-}
-section#menu a {
-    color: #fff;
-    text-decoration: none;
-    letter-spacing: 0.15em;
-    display: inline-block;
-    padding: 0;
-    position: relative;
-}
-section#menu a:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-section#menu a:hover:after {
-    width: 100%;
-    left: 0;
-}
+
+
 @media only screen and (min-width:541px) and (max-width:900px) {
     nav svg {
         display: none;
