@@ -2,7 +2,7 @@ aside#context-menu {
     position: fixed;
     z-index: 10000;
     width: 150px;
-    background: var(--color-dos);
+    background: rgba(0,0,0,1);
     border-radius: 15px;
     margin: 25px;
     transform: scale(0);
@@ -19,7 +19,7 @@ aside#context-menu .item {
     border-radius: inherit;
 }
 aside#context-menu .item span {
-    color: var(--color-uno);
+    color: var(--bg-300);
 }
 aside#context-menu .item:hover {
     background-color: var(--color-tres);
